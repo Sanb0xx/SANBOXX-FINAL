@@ -1,0 +1,10 @@
+.aider*
+.env
+.env.*
+!.env.example
+dist/
+node_modules/
+npm-debug.log*
+
+demo-folder/*
+!demo-folder/.gitkeep
