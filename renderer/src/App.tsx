@@ -180,6 +180,21 @@ export default function App() {
       <div className="content">
         {/* ── Sidebar ── */}
         <aside className="sidebar">
+          <span className="section-label">Menu</span>
+          <nav className="nav-menu">
+            <button className="nav-item active">
+              <span className="nav-icon" aria-hidden>⛨</span> Dashboard
+            </button>
+            <button className="nav-item">
+              <span className="nav-icon" aria-hidden>◷</span> History
+            </button>
+            <button className="nav-item">
+              <span className="nav-icon" aria-hidden>⚙</span> Settings
+            </button>
+          </nav>
+
+          <div className="divider" />
+
           <span className="section-label">Scan Stats</span>
 
           <div className="stat-row">
